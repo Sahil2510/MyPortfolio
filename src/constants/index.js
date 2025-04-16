@@ -62,7 +62,7 @@ export const myProjects = [
     desc: 'Developed model architectures for gaming agents, capturing live gameplay screenshots along with metadata, including player view angles, mouse movements, keyboard inputs, and player health.',
   subdesc: 'Enhanced preprocessing steps to separate relevant frames from data for the training process. Designed various model architectures, including CNN and Conv3D layers, and modified implementations for Reinforcement Learning, specifically focusing on Proximal Policy Optimization (PPO).',
   href: 'https://www.linkedin.com/in/sahilll',
-    texture: '/textures/project/project1.mp4',
+    texture: '/textures/project/project1made.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -98,7 +98,7 @@ export const myProjects = [
   desc: 'An AI-powered smart traffic management system that dynamically adjusts traffic lights based on real-time vehicle density, optimizing traffic flow and reducing congestion.',
   subdesc: 'This project utilized AI-driven image processing techniques to analyze traffic camera feeds, detect high-density vehicle areas, and automatically adjust signal timings for efficient traffic management. Selected among the top 3 projects in the college, demonstrating innovation in urban mobility solutions.',
     href: 'https://github.com/Sahil2510/Traffic-Managment-System-Using-AI',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/project2made.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -129,45 +129,45 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   title: 'CarePulse - Health Management System',
-  //   desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-  //   subdesc:
-  //     'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-  //   href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-  //   texture: '/textures/project/project3.mp4',
-  //   logo: '/assets/project-logo3.png',
-  //   logoStyle: {
-  //     backgroundColor: '#60f5a1',
-  //     background:
-  //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-  //     border: '0.2px solid rgba(208, 213, 221, 1)',
-  //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-  //   },
-  //   spotlight: '/assets/spotlight3.png',
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: 'React.js',
-  //       path: '/assets/react.svg',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'TailwindCSS',
-  //       path: 'assets/tailwindcss.png',
-  //     },
-  //     {
-  //       id: 3,
-  //       name: 'TypeScript',
-  //       path: '/assets/typescript.png',
-  //     },
-  //     {
-  //       id: 4,
-  //       name: 'Framer Motion',
-  //       path: '/assets/framer.png',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Breast Cancer Detection System',
+    desc: 'Built an AI-powered web app for breast cancer detection with 92% accuracy to assist doctors in early diagnosis.',
+    subdesc:
+      'Developed a custom dataset with diverse labeled breast cancer images. Applied convolutional neural networks (CNNs) to classify cancer types with high precision accurately.',
+    href: 'https://github.com/Sahil2510/Breast_Cancer_Diagnosis_using_Deep_Learning',
+    texture: '/textures/project/project3made.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/python.png',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/python2.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/python3.svg',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
   // {
   //   title: 'Horizon - Online Banking Platform',
   //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
