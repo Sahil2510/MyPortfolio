@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex flex-wrap justify-between items-center gap-5">
       <div className="text-white-500 flex gap-2 text-sm md:text-base">
-        <p>Terms & Conditions</p>
         <p>|</p>
-        <p>Privacy Policy</p>
+        <p>|</p>
+        <p>|</p>
       </div>
 
       <div className="flex gap-4">
